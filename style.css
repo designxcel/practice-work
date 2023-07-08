@@ -70,7 +70,7 @@ header {
 }
 
 .second_content_image img {
-    width: 550px;
+    /* width: 550px; */
     height: 898px;
     margin: 140px 0 50px 350px;
 }
@@ -112,13 +112,8 @@ header {
 .plans_content {
     display: flex;
     justify-content: space-between;
-    /* gap: 100px; */
     text-align: center;
-    /* gap: 100px; */
-    /* display: block; */
-    margin: 0 450px;
-    /* padding: 25px 25px; */
-    /* width: 50%; */
+    margin: 0 300px;
 }
 
 .plans_content img {
@@ -151,7 +146,7 @@ header {
     /* display: block; */
     /* margin-left: auto;
     margin-right: auto; */
-    width: 50%;
+    width: 1148px;
     margin: 60px auto;
     border-radius: 8px;
 }
@@ -159,9 +154,10 @@ header {
 .time_caption {
 
     /* padding: 59px auto 0 65px; */
-
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(241, 91, 34, 0.00)100%), url('images/gradient1.png');
     height: 300px;
+    width: 1148px;
+    background-repeat: no-repeat;
     border-radius: 8px;
 
 }
